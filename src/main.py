@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from sorter import generate_random_array, quick_sort
 from analyzer import split_array, compare_halves, print_analysis
 
@@ -31,6 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
-#
->>>>>>> c14271db750baba86bd25388675655252c3ff067
