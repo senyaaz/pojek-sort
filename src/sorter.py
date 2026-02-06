@@ -1,5 +1,4 @@
 def quick_sort(arr):
-    """Быстрая сортировка массива."""
     if len(arr) <= 1:
         return arr
     
@@ -11,6 +10,5 @@ def quick_sort(arr):
     return quick_sort(left) + middle + quick_sort(right)
 
 def generate_array(size=10):
-    """Генерирует случайный массив."""
     import random
     return [random.randint(1, 100) for _ in range(size)]
